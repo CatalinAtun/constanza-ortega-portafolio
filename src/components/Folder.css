@@ -1,0 +1,12 @@
+.name-folder {
+  font-size: 10px;
+  text-align: center;
+  margin-top: -5px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 5px black;
+  font-weight: bold;
+}
+
+.folder {
+  width: 90px;
+}

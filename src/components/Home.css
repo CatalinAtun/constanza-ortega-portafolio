@@ -1,0 +1,56 @@
+.project1 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20%;
+  margin-left: 14%;
+}
+
+.project2 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 20%;
+}
+
+.project3 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15%;
+  margin-left: 13%;
+}
+
+.project4 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.margin {
+  height: 80px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  /* width: 150%; */
+  min-height: 100%;
+  z-index: -10;
+}
+
+@media screen and (max-width: 550px) {
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
+    width: 100%;
+    padding: 1em 1.5em 0 1.5em;
+    margin: 0;
+  }
+
+  .margin {
+    height: 30px;
+  }
+}

@@ -1,0 +1,30 @@
+.navbarr {
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: start;
+  padding-top: 0.1em;
+  width: 90%;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.cont {
+  display: flex;
+  background-color: #333333;
+  height: 28px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.hours {
+  color: white;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+/* marginLeft: "1em",
+  marginBottom: "0.3em" */
