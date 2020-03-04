@@ -14,7 +14,7 @@ import video from "../assets/fondo5.mp4";
 class Home extends Component {
   render() {
     return (
-      <Container fluid>
+      <Container fluid className="video">
         <video id="myVideo" loop autoPlay>
           <source src={video} type="video/mp4" />
         </video>

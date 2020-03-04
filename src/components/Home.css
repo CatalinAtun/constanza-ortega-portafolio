@@ -40,6 +40,39 @@
   z-index: -10;
 }
 
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+#myVideo {
+  position: fixed;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9) {
+  #myVideo {
+    width: 100%;
+    height: auto;
+  }
+}
+/* @media (max-aspect-ratio: 16/9) {
+  #myVideo {
+    width: auto;
+    height: 100%;
+  }
+} */
+@media (max-width: 767px) {
+  #myVideo {
+    display: none;
+  }
+
+  body {
+    background: url("../assets/fondoM.png") no-repeat center center fixed;
+    background-size: cover;
+  }
+}
+
 @media screen and (max-width: 550px) {
   .project1,
   .project2,
@@ -53,4 +86,11 @@
   .margin {
     height: 30px;
   }
+
+  /* #idVideo {
+    width: 10%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  } */
 }
