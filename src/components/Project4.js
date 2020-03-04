@@ -173,22 +173,39 @@ class Projects extends Component {
             <Image
               src={catorce}
               className="img"
-              style={{ width: "40%", height: "40%", margin: "1em" }}
+              style={{
+                width: "40%",
+                height: "40%",
+                margin: "1em"
+                // transform: "rotate(90deg)"
+              }}
             />
             <Image
               src={quince}
               className="img"
-              style={{ width: "40%", height: "40%", margin: "1em" }}
+              style={{
+                width: "40%",
+                height: "40%",
+                margin: "1em"
+              }}
             />
             <Image
               src={dieciseis}
               className="img"
-              style={{ width: "40%", height: "40%", margin: "1em" }}
+              style={{
+                width: "40%",
+                height: "40%",
+                margin: "1em"
+              }}
             />
             <Image
               src={diecisiete}
               className="img"
-              style={{ width: "40%", height: "40%", margin: "1em" }}
+              style={{
+                width: "40%",
+                height: "40%",
+                margin: "1em"
+              }}
             />
           </div>
           <div className="container-images-4" style={{ marginTop: "2em" }}>
