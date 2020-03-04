@@ -51,67 +51,67 @@ class Projects extends Component {
             <Image
               src={uno}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "40%", height: "40%", margin: "1em" }}
             />
             <Image
               src={dos}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "23%", height: "23%", margin: "1em" }}
             />
             <Image
               src={tres}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "28%", height: "28%", margin: "1em" }}
             />
             <Image
               src={cuatro}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "20%", height: "20%", margin: "1em" }}
             />
             <Image
               src={cinco}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "40%", height: "40%", margin: "1em" }}
             />
             <Image
               src={seis}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "40%", height: "40%", margin: "1em" }}
             />
             <Image
               src={siete}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "20%", height: "20%", margin: "1em" }}
             />
             <Image
               src={ocho}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "40%", height: "40%", margin: "1em" }}
             />
             <Image
               src={nueve}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "30%", height: "30%", margin: "1em" }}
             />
             <Image
               src={diez}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "32%", height: "32%", margin: "1em" }}
             />
             <Image
               src={once}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "32%", height: "32%", margin: "1em" }}
             />
             <Image
               src={doce}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "32%", height: "32%", margin: "1em" }}
             />
             <Image
               src={trece}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "32%", height: "32%", margin: "1em" }}
             />
           </div>
         </div>

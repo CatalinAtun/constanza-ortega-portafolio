@@ -69,162 +69,162 @@ class Projects extends Component {
             <Image
               src={uno}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={dos}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={tres}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={cuatro}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={cinco}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={seis}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={siete}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={ocho}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={nueve}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={diez}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={once}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={doce}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={trece}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={catorce}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={quince}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={dieciseis}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={diecisiete}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={dieciocho}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={diecinueve}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veinte}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veintiuno}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veintidos}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veintitres}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veinticuatro}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veinticinco}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veintiseis}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veintisiete}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veintiocho}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={veintinueve}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={treinta}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={treintayuno}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
             <Image
               src={treintaydos}
               className="img"
-              style={{ width: "20%", margin: "1em" }}
+              style={{ width: "45%", height: "45%", margin: "1em" }}
             />
           </div>
         </div>

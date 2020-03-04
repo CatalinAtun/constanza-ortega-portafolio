@@ -7,15 +7,16 @@ class FormModal extends Component {
   render() {
     const { onHide } = this.props;
     return (
-      <div style={{ height: "60vh" }}>
+      <div>
         {/* <p>aquí va el cv, falta la imageeeen</p> */}
         <div className="bar">
           <button className="close" onClick={onHide}></button>
           <button className="close-disabled"></button>
           <button className="close-disabled"></button>
-          <p className="name-file">Sobre mi.txt</p>
+          <p className="name-file">SOBRE MI</p>
         </div>
         <div className="about-me-text">
+          <strong>SOBRE MI</strong> <br />
           Diseñadora UX de la Universidad Finis Terrae. Estudié diseño
           industrial en la Universidad Diego Portales, ya que llamó mi atención
           el desarrollo de proyectos y productos que ayudan a visibilizar y
