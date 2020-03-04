@@ -2,6 +2,7 @@ import React from "react";
 import { Modal } from "react-bootstrap";
 import FormModal from "./FormModal";
 import CV from "./CV.js";
+import Contact from "./Contact.js";
 
 const ModalAdd = ({ show, data, onHide, size, id }) => {
   const renderForm = modalData => {
@@ -12,6 +13,10 @@ const ModalAdd = ({ show, data, onHide, size, id }) => {
         );
       case "cv":
         return <CV data={modalData} onHide={onHide} type={modalData.action} />;
+      case "contact":
+        return (
+          <Contact data={modalData} onHide={onHide} type={modalData.action} />
+        );
       default:
         return "error";
     }

@@ -53,18 +53,21 @@ class Projects extends Component {
           </div>
         </div>
         <div>
-          <div className="container-images-4">
-            <p>
-              UX EMPATHISE: En esta primera etapa UX, se presentó la metodología
-              base para generar la experiencia del usuario, la Empatía. Con esto
-              se generó cercanía y entendimiento de quién es nuestro usuario y
-              qué necesita.{" "}
-            </p>
+          <div className="container-images-4" style={{ marginTop: "2em" }}>
             <Image
               src={cero}
               className="img"
               style={{ width: "40%", height: "40%", margin: "1em" }}
             />
+            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+              <div className="title-right">UX EMPATHISE</div>
+              <div className="description-right">
+                En esta primera etapa UX, se presentó la metodología base para
+                generar la experiencia del usuario, la Empatía. Con esto se
+                generó cercanía y entendimiento de quién es nuestro usuario y
+                qué necesita.
+              </div>
+            </div>
             <Image
               src={uno}
               className="img"
@@ -81,26 +84,29 @@ class Projects extends Component {
               style={{ width: "40%", height: "40%", margin: "1em" }}
             />
           </div>
-          <div className="container-images-4">
-            <p>
-              UX RESEARCH: La segunda etapa se enfocó en la investigación del
-              usuario objetivo, para así fundamentar las bases del proyecto,
-              confirmando al usuario y diseñando el producto que necesita. Se
-              comenzó el User research, creando entrevistas que entreguen datos
-              cuantitativos y cualitativos, de los patrones de comportamientos
-              del usuario, lo que ayudó a definir los arquetipos (metodología
-              Humulu). Una vez entendido los usuarios y sus necesidades, se
-              planteó la pregunta ¿qué contenido y cómo se lo entrego?, la cual
-              fue respondida en base a distintas técnicas que mostraban las
-              interacciones del usuario para conocer su dinámica metal, tales
-              como Customer Journey Map, User Task, Card Sorting. En base a esto
-              se dividió la aplicación en dos funciones principales, la primera
-              el informar lo que sucede actualmente con el medio ambiente, y la
-              segunda enseñarle cuáles son las acciones que puede hacer para
-              ayudar. Esta estructura básica dió paso al inicio del diseño,
-              definiendo las categorías de la app y mostrando las tareas que se
-              debe realizar.
-            </p>
+          <div className="container-images-4" style={{ marginTop: "2em" }}>
+            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+              <div className="title-right">UX RESEARCH</div>
+              <div className="description-right">
+                La segunda etapa se enfocó en la investigación del usuario
+                objetivo, para así fundamentar las bases del proyecto,
+                confirmando al usuario y diseñando el producto que necesita. Se
+                comenzó el User research, creando entrevistas que entreguen
+                datos cuantitativos y cualitativos, de los patrones de
+                comportamientos del usuario, lo que ayudó a definir los
+                arquetipos (metodología Humulu). Una vez entendido los usuarios
+                y sus necesidades, se planteó la pregunta ¿qué contenido y cómo
+                se lo entrego?, la cual fue respondida en base a distintas
+                técnicas que mostraban las interacciones del usuario para
+                conocer su dinámica metal, tales como Customer Journey Map, User
+                Task, Card Sorting. En base a esto se dividió la aplicación en
+                dos funciones principales, la primera el informar lo que sucede
+                actualmente con el medio ambiente, y la segunda enseñarle cuáles
+                son las acciones que puede hacer para ayudar. Esta estructura
+                básica dió paso al inicio del diseño, definiendo las categorías
+                de la app y mostrando las tareas que se debe realizar.
+              </div>
+            </div>
             <Image
               src={cuatro}
               className="img"
@@ -147,19 +153,23 @@ class Projects extends Component {
               style={{ width: "40%", height: "40%", margin: "1em" }}
             />
           </div>
-          <div className="container-images-4">
-            <p>
-              UX DESIGN: Durante la tercera etapa, comenzamos visualizar el
-              producto digital, desde sus colores, texturas, flujos y esquemas,
-              todo aludiendo a la naturaleza y las personas como agentes de
-              cambio. Se utilizó herramientas como el moodboard, sketching y
-              diseño de wireframes.{" "}
-            </p>
+
+          <div className="container-images-4" style={{ marginTop: "2em" }}>
             <Image
               src={trece}
               className="img"
               style={{ width: "40%", height: "40%", margin: "1em" }}
             />
+            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+              <div className="title-right">UX DESIGN</div>
+              <div className="description-right">
+                Durante la tercera etapa, comenzamos visualizar el producto
+                digital, desde sus colores, texturas, flujos y esquemas, todo
+                aludiendo a la naturaleza y las personas como agentes de cambio.
+                Se utilizó herramientas como el moodboard, sketching y diseño de
+                wireframes.
+              </div>
+            </div>
             <Image
               src={catorce}
               className="img"
@@ -181,11 +191,14 @@ class Projects extends Component {
               style={{ width: "40%", height: "40%", margin: "1em" }}
             />
           </div>
-          <div className="container-images-4">
-            <p>
-              PROTOTIPO EN BAJA: Para el desarrollo de la aplicación, se utilizó
-              el Adobe XD para prototipar los primeros flujos de tarea.{" "}
-            </p>
+          <div className="container-images-4" style={{ marginTop: "2em" }}>
+            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+              <div className="title-right">PROTOTIPO EN BAJA</div>
+              <div className="description-right">
+                Para el desarrollo de la aplicación, se utilizó el Adobe XD para
+                prototipar los primeros flujos de tarea.
+              </div>
+            </div>
             <Image
               src={dieciocho}
               className="img"
@@ -197,18 +210,21 @@ class Projects extends Component {
               style={{ width: "40%", height: "40%", margin: "1em" }}
             />
           </div>
-          <div className="container-images-4">
-            <p>
-              UX TESTING: En esta última etapa se evaluó el prototipo en baja,
-              desde el diseño y navegación hasta la utilidad y experiencia,
-              utilizando evaluaciones como Test de usabilidad, Mapa de calor,
-              A/B testing y Evaluación heurística. Los resultados en cuanto a
-              contenido y arquitectura de la información fueron positivos, ya
-              que se entendía y quedaban claros, motivaban al usuario a querer
-              utilizar la aplicación. Por otro lado, la visualización de la
-              aplicación no fue satisfactoria, por lo que se rediseñó la gráfica
-              (color, tamaño, ilustración).{" "}
-            </p>
+          <div className="container-images-4" style={{ marginTop: "2em" }}>
+            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+              <div className="title-right">UX TESTING</div>
+              <div className="description-right">
+                En esta última etapa se evaluó el prototipo en baja, desde el
+                diseño y navegación hasta la utilidad y experiencia, utilizando
+                evaluaciones como Test de usabilidad, Mapa de calor, A/B testing
+                y Evaluación heurística. Los resultados en cuanto a contenido y
+                arquitectura de la información fueron positivos, ya que se
+                entendía y quedaban claros, motivaban al usuario a querer
+                utilizar la aplicación. Por otro lado, la visualización de la
+                aplicación no fue satisfactoria, por lo que se rediseñó la
+                gráfica (color, tamaño, ilustración).
+              </div>
+            </div>
             <Image
               src={veinte}
               className="img"
@@ -240,18 +256,21 @@ class Projects extends Component {
               style={{ width: "40%", height: "40%", margin: "1em" }}
             />
           </div>
-          <div className="container-images-4">
-            <p>
-              MOCKUP: El desarrollo de este proyecto fue un gran desafío, por el
-              alto nivel de información sintetizada en una aplicación y los
-              diferentes tipos de usuarios que abordar, desde niños, jóvenes
-              hasta adultos, ya que todos estamos en diferentes niveles de
-              formación y cambiar hábitos es una acción difícil de generar, por
-              la necesidad de conseguir las cosas de manera rápida y fácil. El
-              prototipo final presentado alcanza un buen nivel de testeo, sin
-              embargo, podrían realizarse mejoras si se continuara en el
-              proyecto.
-            </p>
+          <div className="container-images-4" style={{ marginTop: "2em" }}>
+            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+              <div className="title-right">MOCKUP</div>
+              <div className="description-right">
+                El desarrollo de este proyecto fue un gran desafío, por el alto
+                nivel de información sintetizada en una aplicación y los
+                diferentes tipos de usuarios que abordar, desde niños, jóvenes
+                hasta adultos, ya que todos estamos en diferentes niveles de
+                formación y cambiar hábitos es una acción difícil de generar,
+                por la necesidad de conseguir las cosas de manera rápida y
+                fácil. El prototipo final presentado alcanza un buen nivel de
+                testeo, sin embargo, podrían realizarse mejoras si se continuara
+                en el proyecto.
+              </div>
+            </div>
             <Image
               src={veintiseis}
               className="img"

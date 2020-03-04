@@ -28,12 +28,13 @@ class Home extends Component {
           <Folder path="/project2" name="Proyecto Logotipo" image={folder} />
         </div>
         <div className="project3">
-          <Folder
+          {/* <Folder
             image={world}
             style={{ width: "90px", marginTop: "1em" }}
             name="Contacto"
             path="/contact"
-          />
+          /> */}
+          <Modal photo={world} typeModal="contact" name="Contacto" />
           <Folder path="/project3" name="Proyecto de titulo" image={folder} />
         </div>
         <div className="project4">
