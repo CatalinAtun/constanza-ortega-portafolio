@@ -44,15 +44,10 @@
 }
 
 .title-right {
-  /* min-width: 200px; */
-  /* text-align: left; */
   font-weight: bold;
   font-size: 40px;
   color: black;
   line-height: 1.2em;
-  /* width: 35%; */
-  /* margin-left: 0.6em; */
-  /* border: 2px solid black; */
 }
 
 .description-right {
@@ -92,5 +87,9 @@
     padding: 0 15px;
     /* margin-left: 3em; */
     /* margin-right: 3em; */
+  }
+
+  .responsive-info {
+    width: 100% !important;
   }
 }

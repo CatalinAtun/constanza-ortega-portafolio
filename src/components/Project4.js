@@ -59,7 +59,10 @@ class Projects extends Component {
               className="img"
               style={{ width: "40%", height: "40%", margin: "1em" }}
             />
-            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+            <div
+              className="responsive-info"
+              style={{ width: "40%", height: "40%", margin: "1em" }}
+            >
               <div className="title-right">UX EMPATHISE</div>
               <div className="description-right">
                 En esta primera etapa UX, se presentó la metodología base para
@@ -85,7 +88,10 @@ class Projects extends Component {
             />
           </div>
           <div className="container-images-4" style={{ marginTop: "2em" }}>
-            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+            <div
+              className="responsive-info"
+              style={{ width: "40%", height: "40%", margin: "1em" }}
+            >
               <div className="title-right">UX RESEARCH</div>
               <div className="description-right">
                 La segunda etapa se enfocó en la investigación del usuario
@@ -160,7 +166,10 @@ class Projects extends Component {
               className="img"
               style={{ width: "40%", height: "40%", margin: "1em" }}
             />
-            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+            <div
+              className="responsive-info"
+              style={{ width: "40%", height: "40%", margin: "1em" }}
+            >
               <div className="title-right">UX DESIGN</div>
               <div className="description-right">
                 Durante la tercera etapa, comenzamos visualizar el producto
@@ -209,7 +218,10 @@ class Projects extends Component {
             />
           </div>
           <div className="container-images-4" style={{ marginTop: "2em" }}>
-            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+            <div
+              className="responsive-info"
+              style={{ width: "40%", height: "40%", margin: "1em" }}
+            >
               <div className="title-right">PROTOTIPO EN BAJA</div>
               <div className="description-right">
                 Para el desarrollo de la aplicación, se utilizó el Adobe XD para
@@ -228,7 +240,10 @@ class Projects extends Component {
             />
           </div>
           <div className="container-images-4" style={{ marginTop: "2em" }}>
-            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+            <div
+              className="responsive-info"
+              style={{ width: "40%", height: "40%", margin: "1em" }}
+            >
               <div className="title-right">UX TESTING</div>
               <div className="description-right">
                 En esta última etapa se evaluó el prototipo en baja, desde el
@@ -274,7 +289,10 @@ class Projects extends Component {
             />
           </div>
           <div className="container-images-4" style={{ marginTop: "2em" }}>
-            <div style={{ width: "40%", height: "40%", margin: "1em" }}>
+            <div
+              className="responsive-info"
+              style={{ width: "40%", height: "40%", margin: "1em" }}
+            >
               <div className="title-right">MOCKUP</div>
               <div className="description-right">
                 El desarrollo de este proyecto fue un gran desafío, por el alto
