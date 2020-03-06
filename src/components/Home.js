@@ -10,11 +10,13 @@ import sticker from "../assets/sticker.png";
 import world from "../assets/world.png";
 import txt from "../assets/txt.png";
 import video from "../assets/fondo5.mp4";
+import img from "../assets/fondoM.png";
 
 class Home extends Component {
   render() {
+    console.log(window.innerWidth);
     return (
-      <Container fluid className="video">
+      <Container fluid>
         <video id="myVideo" loop autoPlay>
           <source src={video} type="video/mp4" />
         </video>
