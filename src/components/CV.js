@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image, Button } from "react-bootstrap";
 import cv from "../assets/cv.jpg";
+import cv2 from "../assets/cv2.jpg";
 import "./CV.css";
 
 class CV extends Component {
@@ -20,6 +21,10 @@ class CV extends Component {
           className="img"
           style={{ width: "100%", padding: "0" }}
         />
+        <Image
+        src={cv2}
+        className="img"
+        style={{ width: "100%", padding: "0" }} />
       </div>
     );
   }
